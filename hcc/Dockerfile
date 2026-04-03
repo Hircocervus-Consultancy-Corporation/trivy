@@ -39,7 +39,6 @@ EXPOSE 8500
 # 5FS Attribution — preserve upstream NOTICE as required by Apache 2.0
 # Original work: Copyright 2019 Teppei Fukuda (@knqyf263), AquaSecurity
 # This fork: Hircocervus Consultancy Corporation (HCC)
-# FUND: 3% of derivative revenue to AquaSecurity (Trust Keeper tracked)
 LABEL org.opencontainers.image.title="TrivyScanner CV" \
       org.opencontainers.image.description="5FS fork of aquasecurity/trivy as a mesh-resident security attestation CV" \
       org.opencontainers.image.source="https://github.com/Hircocervus-Consultancy-Corporation/trivy" \
@@ -47,6 +46,6 @@ LABEL org.opencontainers.image.title="TrivyScanner CV" \
       org.opencontainers.image.licenses="Apache-2.0" \
       hcc.cv.layer="9" \
       hcc.cv.role="ObservabilityGovernance" \
-      hcc.5fs.fund_contact="https://github.com/sponsors/aquasecurity"
+      hcc.5fs.upstream_author="Teppei Fukuda (@knqyf263), AquaSecurity"
 
 ENTRYPOINT ["trivy-scanner-server"]
