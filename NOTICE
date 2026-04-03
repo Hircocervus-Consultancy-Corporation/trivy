@@ -2,3 +2,12 @@ Trivy
 Copyright 2019-2020 Aqua Security Software Ltd. 
 
 This product includes software developed by Aqua Security (https://aquasec.com).
+
+
+--- HCC Fork Notice ---
+This software is a fork of Trivy (https://github.com/aquasecurity/trivy)
+by AquaSecurity. Original work Copyright 2019 Teppei Fukuda (@knqyf263).
+Fork maintained by Hircocervus Consultancy Corporation (HCC) as
+Elevate.Trivy.CV under the same Apache 2.0 license.
+Revenue share: 3% of derivative revenue to AquaSecurity.
+Fork branch: hcc-main (from tag v0.69.3, commit 6fb20c8)
