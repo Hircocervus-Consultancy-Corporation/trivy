@@ -47,7 +47,6 @@ LABEL org.opencontainers.image.title="TrivyScanner CV" \
       org.opencontainers.image.licenses="Apache-2.0" \
       hcc.cv.layer="9" \
       hcc.cv.role="ObservabilityGovernance" \
-      hcc.5fs.fund_rate="3%" \
-      hcc.5fs.fund_recipient="https://github.com/sponsors/aquasecurity"
+      hcc.5fs.fund_contact="https://github.com/sponsors/aquasecurity"
 
 ENTRYPOINT ["trivy-scanner-server"]

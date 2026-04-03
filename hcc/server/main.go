@@ -1,7 +1,7 @@
 // TrivyScanner CV — MCP# HTTP Server Wrapper
 // 5FS Fork of github.com/aquasecurity/trivy (Apache 2.0)
 // HCC Fork: github.com/Hircocervus-Consultancy-Corporation/trivy
-// FUND: 3% of derivative revenue to AquaSecurity (Trust Keeper tracked)
+// FUND: revenue share to AquaSecurity — contact https://github.com/sponsors/aquasecurity (rate TBD via Trust Keeper credits)
 //
 // Wraps the trivy CLI binary as a mesh-addressable CV:
 //   POST /scan/image    — scan a container image
